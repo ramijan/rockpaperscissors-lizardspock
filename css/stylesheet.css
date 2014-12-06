@@ -9,6 +9,12 @@ h1 {
 	color: white;
 }
 
+h3 {
+	font-family: Courier;
+	text-align: center;
+	color: white;
+}
+
 #selector {
 	background-image: url("../img/rpsls.png");
 	width: 500px;
