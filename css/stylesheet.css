@@ -1,0 +1,66 @@
+body {
+	background-color: #002D4E;
+}
+
+h1 {
+	font-size: 24px;
+	font-family: Courier;
+	text-align: center;
+	color: white;
+}
+
+#selector {
+	background-image: url("../img/rpsls.png");
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	background-size: contain;
+}
+
+.button {
+	height: 125px;
+	width: 125px;
+	border-radius: 100%;
+}
+
+.button:hover {
+	background-color: yellow;
+	opacity: .5;
+}
+
+#scissors {
+	margin: auto;
+	position: relative;
+	top: 18px;
+	right: 4px;
+}
+
+#spock {
+	float: left;
+	position: relative;
+	top: -9px;
+	left: 53px;
+}
+
+#paper {
+	float: right;
+	position: relative;
+	top: -12px;
+	right: 53px;
+}
+
+#lizard {
+	clear: left;
+	float: left;
+	position: relative;
+	top: 28px;
+	left: 106px;
+}
+
+#rock {
+	clear: right;
+	float: right;
+	position: relative;
+	top: 23px;
+	right: 102px;
+}
